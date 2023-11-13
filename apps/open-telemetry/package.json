@@ -19,15 +19,17 @@
     "compose:down": "docker-compose down --volumes"
   },
   "dependencies": {
-    "@amplication/nest-access-control": "2.2.1",
     "@amplication/opentelemetry-nestjs": "^4.4.0",
     "@apollo/server": "^4.9.4",
+    "@grpc/grpc-js": "^1.9.3",
+    "@grpc/proto-loader": "^0.7.10",
     "@nestjs/apollo": "12.0.9",
     "@nestjs/common": "10.2.7",
     "@nestjs/config": "3.1.1",
     "@nestjs/core": "10.2.7",
     "@nestjs/graphql": "12.0.9",
     "@nestjs/jwt": "^10.1.1",
+    "@nestjs/microservices": "^10.0.2",
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "10.2.7",
     "@nestjs/serve-static": "4.0.0",
